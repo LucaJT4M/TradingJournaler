@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1229,15 +1229,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "System.Buffers/4.6.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
       },
       "System.CodeDom/4.4.0": {
         "type": "package",
@@ -3317,26 +3308,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "System.Buffers/4.6.0": {
-      "sha512": "lN6tZi7Q46zFzAbRYXTIvfXcyvQQgxnY7Xm6C6xQ9784dEL1amjM6S6Iw4ZpsvesAKnRVsM4scrDQaDqSClkjA==",
-      "type": "package",
-      "path": "system.buffers/4.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "buildTransitive/net461/System.Buffers.targets",
-        "buildTransitive/net462/_._",
-        "lib/net462/System.Buffers.dll",
-        "lib/net462/System.Buffers.xml",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard2.0/System.Buffers.dll",
-        "lib/netstandard2.0/System.Buffers.xml",
-        "system.buffers.4.6.0.nupkg.sha512",
-        "system.buffers.nuspec"
-      ]
-    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -3842,7 +3813,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "Microsoft.AspNetCore.Mvc.Core >= 2.3.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.19",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
@@ -3854,35 +3825,42 @@
     ]
   },
   "packageFolders": {
-    "/home/DarrylParker/.nuget/packages/": {}
+    "C:\\Users\\DarrylParker\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/TradingJournal.Api.csproj",
+      "projectUniqueName": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\TradingJournal.Api.csproj",
       "projectName": "TradingJournal.Api",
-      "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/TradingJournal.Api.csproj",
-      "packagesPath": "/home/DarrylParker/.nuget/packages/",
-      "outputPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/obj/",
+      "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\TradingJournal.Api.csproj",
+      "packagesPath": "C:\\Users\\DarrylParker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/DarrylParker/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\DarrylParker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj": {
-              "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj"
+            "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj": {
+              "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj"
             },
-            "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj": {
-              "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj"
+            "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj": {
+              "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj"
             }
           }
         }
@@ -3891,11 +3869,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": {
             "target": "Package",
@@ -3943,8 +3927,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Buffers (>= 4.6.0)' for 'net9.0'. PackageSourceMapping is enabled, the following source(s) were not considered: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Buffers",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

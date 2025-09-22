@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/TradingJournal.Api.csproj": {}
+    "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\TradingJournal.Api.csproj": {}
   },
   "projects": {
-    "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/TradingJournal.Api.csproj": {
+    "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\TradingJournal.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/TradingJournal.Api.csproj",
+        "projectUniqueName": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\TradingJournal.Api.csproj",
         "projectName": "TradingJournal.Api",
-        "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/TradingJournal.Api.csproj",
-        "packagesPath": "/home/DarrylParker/.nuget/packages/",
-        "outputPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Api/obj/",
+        "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\TradingJournal.Api.csproj",
+        "packagesPath": "C:\\Users\\DarrylParker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/DarrylParker/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DarrylParker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj": {
-                "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj"
+              "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj": {
+                "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj"
               },
-              "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj": {
-                "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj"
+              "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj": {
+                "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj"
               }
             }
           }
@@ -39,11 +45,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
@@ -91,83 +103,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj": {
+    "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj",
-        "projectName": "TradingJournal.DB",
-        "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/TradingJournal.DB.csproj",
-        "packagesPath": "/home/DarrylParker/.nuget/packages/",
-        "outputPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.DB/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/DarrylParker/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj": {
-                "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj",
+        "projectUniqueName": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj",
         "projectName": "TradingJournal.Data",
-        "projectPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/TradingJournal.Data.csproj",
-        "packagesPath": "/home/DarrylParker/.nuget/packages/",
-        "outputPath": "/home/DarrylParker/Documents/Codes/C#/TradingJournal/TradingJournal.Data/obj/",
+        "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj",
+        "packagesPath": "C:\\Users\\DarrylParker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/DarrylParker/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DarrylParker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,7 +141,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -217,7 +184,76 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj",
+        "projectName": "TradingJournal.DB",
+        "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\TradingJournal.DB.csproj",
+        "packagesPath": "C:\\Users\\DarrylParker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DarrylParker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj": {
+                "projectPath": "C:\\Users\\DarrylParker\\Documents\\Codes\\langeWeileProjekte\\TradingJournaler\\TradingJournal.Data\\TradingJournal.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

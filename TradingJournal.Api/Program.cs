@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
-builder.Services.AddDbContext<JournalContext>(options => 
+builder.Services.AddDbContext<JournalContext>(options =>
     options.UseSqlite("Data Source=tradingjournal.db"));
 
 var app = builder.Build();

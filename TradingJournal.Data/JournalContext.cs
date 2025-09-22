@@ -7,7 +7,7 @@ namespace TradingJournal.Data
     {
         public DbSet<Trade> Trades { get; set; }
 
-        public JournalContext(DbContextOptions<JournalContext> options) : base(options) {}
+        public JournalContext(DbContextOptions<JournalContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
